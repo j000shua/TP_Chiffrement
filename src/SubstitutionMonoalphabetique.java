@@ -7,7 +7,7 @@
  * etc.
  **/
 
-public class SubstitutionMonoalphabetique implements ProtocoleChiffrement 
+public class SubstitutionMonoalphabetique implements ProtocoleChiffrementACle 
 {
 	@Override
 	public String chiffre(String message) 
@@ -20,5 +20,14 @@ public class SubstitutionMonoalphabetique implements ProtocoleChiffrement
 	{
 		return "";
 	}
-
+	
+	@Override
+	public void setCle(String cle) {
+		
+	}
+	
+	@Override
+	public String getCle() {
+		return "";
+	}
 }
