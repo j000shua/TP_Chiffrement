@@ -16,11 +16,7 @@ public class SubstitutionMonoalphabetique implements ProtocoleChiffrementACle
 	@Override
 	public String chiffre(String message) 
 	{
-		String res="";
-		for(int i = 0; i < message.length(); i++) {
-			res += cle[alph.indexof(message.charAt(i))];
-		}
-		return res;
+		return "";
 	}
 
 	@Override
