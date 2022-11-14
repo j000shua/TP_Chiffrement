@@ -7,6 +7,18 @@
  * etc.
  **/
 
-public class SubstitutionMonoalphabetique 
+public class SubstitutionMonoalphabetique implements ProtocoleChiffrement 
 {
+	@Override
+	public String chiffre(String message) 
+	{
+		return "";
 	}
+
+	@Override
+	public String dechiffre(String message) 
+	{
+		return "";
+	}
+
+}
